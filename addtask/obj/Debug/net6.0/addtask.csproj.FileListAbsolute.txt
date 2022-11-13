@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\bin\Debug\net6.0\addtask.exe
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\bin\Debug\net6.0\addtask.deps.json
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\bin\Debug\net6.0\addtask.runtimeconfig.json
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\bin\Debug\net6.0\addtask.dll
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\bin\Debug\net6.0\addtask.pdb
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.AssemblyInfo.cs
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.dll
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\refint\addtask.dll
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.pdb
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\addtask.genruntimeconfig.cache
+C:\Users\student\Desktop\Учеба на GB\Homework4\addtask\obj\Debug\net6.0\ref\addtask.dll
