@@ -1,12 +1,12 @@
 ﻿// Задача 38: Задайте массив вещественных чисел. 
 //Найдите разницу между максимальным и минимальным элементов массива.
 
-double[] Returns_Array(int size, int LeftValue, int RightValue)
+double[] Returns_Array(int size, int left, int right)
 {
     double[] vector = new double[size];
     for (int i = 0; i < size; i++)
     {
-        vector[i] = new Random().Next(LeftValue, RightValue + 1);
+        vector[i] = Math.Round(new Random().NextDouble() * (right - left) + left, 5);
     }
     return vector;
 }
@@ -48,5 +48,8 @@ int b = int.Parse(Console.ReadLine()!);
 double[] WorkingArray = Returns_Array(number, a, b);
 Console.WriteLine($"Полученный массив: [{String.Join(", ", WorkingArray)}]");
 
+Console.WriteLine($"Наименьший элемент массива: {MinElement(WorkingArray):f5}");
+Console.WriteLine($"Наибольший элемент массива: {MaxElement(WorkingArray):f5}");
+
 double sum = MaxElement(WorkingArray) + MinElement(WorkingArray);
-Console.WriteLine($"Сумма наименьшего и наибольшего элементов массива равна {sum}");
+Console.WriteLine($"Сумма наименьшего и наибольшего элементов массива равна {sum:f5}");
