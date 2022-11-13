@@ -12,13 +12,27 @@ int[] Returns_Array(int size, int LeftValue, int RightValue)
     return vector;
 }
 
+int Sum_of_Elements(int[] array)
+{
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i % 2 != 0)
+        {
+            sum = sum + array[i];
+        }
+    }
+    return sum;
+}
+
 Console.Clear();
 
 Console.Write("Введите размер массива: ");
 int number = int.Parse(Console.ReadLine()!);
-Console.Write("Введите значение левого конца массива: ");
+Console.Write("Введите значение левого конца диапазона: ");
 int a = int.Parse(Console.ReadLine()!);
-Console.Write("Введите значение правого конца массива: ");
+Console.Write("Введите значение правого конца диапазона: ");
 int b = int.Parse(Console.ReadLine()!);
 int[] WorkingArray = Returns_Array(number, a, b);
 Console.WriteLine($"Полученный массив: [{String.Join(", ", WorkingArray)}]");
+Console.WriteLine($"Сумма элементов массива, стоящих на нечетных позициях равна {Sum_of_Elements(WorkingArray)}");
