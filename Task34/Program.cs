@@ -16,12 +16,11 @@ int[] ThreeDigitNumbers(int size)
 int Quantity_of_EvenNumbers(int[] array)
 {
     int count = 0;
-    for (int i = 0; i <= array.Length; i++)
+    foreach (int element in array)
     {
-        if (array[i] % 2 == 0)
+        if (element % 2 == 0)
         {
             count ++;
-            break;
         }
     }
     return count;
